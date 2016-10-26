@@ -3,7 +3,7 @@ var fs = require('fs');
 var http = require('http');
 var path = require('path');
 var mysql = require('mysql');
-//The url we want is `www.nodejitsu.com:1337/`
+//
 var current_rate_api = {
     host: 'api.coindesk.com',
     path: '/v1/bpi/currentprice.json',
